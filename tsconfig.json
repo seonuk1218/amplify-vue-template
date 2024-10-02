@@ -1,5 +1,12 @@
 {
   "files": [],
+  "types": ["vite/client", "vite-plugin-pages/client", "vite-plugin-vue-layouts/client"],
+  "compilerOptions": {
+    "baseUrl": ".", // 기본 URL 설정
+    "paths": {
+      "@/*": ["src/*"] // src 디렉토리를 @로 참조할 수 있게 설정
+    }
+  },
   "references": [
     {
       "path": "./tsconfig.node.json"

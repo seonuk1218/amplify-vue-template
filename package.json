@@ -12,15 +12,35 @@
   },
   "dependencies": {
     "@aws-amplify/ui-vue": "^4.2.9",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/head": "^2.0.0",
     "aws-amplify": "^6.4.0",
-    "vue": "^3.4.21"
+    "axios": "^1.7.7",
+    "lodash": "^4.17.21",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "nprogress": "^0.2.0",
+    "shiki": "^0.14.2",
+    "unplugin-auto-import": "^0.16.4",
+    "unplugin-icons": "^0.16.4",
+    "unplugin-vue-components": "^0.25.0",
+    "vite-plugin-md": "^0.21.5",
+    "vite-plugin-pages": "^0.32.3",
+    "vite-plugin-pwa": "^0.20.5",
+    "vite-plugin-vue-layouts": "^0.11.0",
+    "vite-ssg": "^0.23.8",
+    "vue": "^3.4.21",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.0.4",
     "@aws-amplify/backend-cli": "^1.1.1",
     "@tsconfig/node20": "^20.1.4",
+    "@types/axios": "^0.14.0",
+    "@types/markdown-it": "^14.1.2",
     "@types/node": "^20.12.5",
-    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue": "^4.2.3",
     "@vue/tsconfig": "^0.5.1",
     "aws-cdk": "^2.137.0",
     "aws-cdk-lib": "^2.137.0",
@@ -29,7 +49,7 @@
     "npm-run-all2": "^6.1.2",
     "tsx": "^4.7.2",
     "typescript": "^5.4.5",
-    "vite": "^5.2.8",
+    "vite": "^4.4.9",
     "vue-tsc": "^2.0.11"
   }
 }
